@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera Pre Entrega</title>
+</head>
+
+<body>
+    <!-- CARRITO -->
+    <nav>
+        <div>
+          <span>Pruebas Online Laboratorio JS</span>
+          <button><a href="#carrito">Carrito</a></button>
+        </div>
+      </nav> 
+    
+    <!-- PRUEBAS PARA VALIDAR Y AGREGAR -->
+    <h1>Laboratorios JavaScript</h1>
+    <h2>Valida si puedes realizar la prueba antes de agregarla al carrito</h2>
+
+ 
+    <!-- FORMULARIO DE VALIDACION -->
+    <div class="container">
+        <select class="form-select mt-5" id="sintoma">
+            <option selected>Seleccione el número de días que presenta síntomas</option>
+            <option value="0">0 días</option>
+            <option value="1">1 día</option>
+            <option value="2">2 días</option>
+            <option value="3">3 días</option>
+            <option value="4">4 días</option>
+            <option value="5">5 días</option>
+            <option value="6">6 días</option>
+            <option value="7">7 días</option>
+            <option value="8">8 días</option>
+        </select>
+
+    <button type="submit" class="btn-reservar btn btn-primary mt-5">Validar</button>
+        <div class="selector mt-5">Resultado validación</div>
+    </div>
+  
+    <!-- PRODUCTOS -->
+    <div class="contenedor-productos">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                    <h3 class="card-title">COVID</h3>
+                    <p class="card-id">XM001</p>
+                    <p class="card-price">95</p>
+                    <button class="btn btn-primary" id="boton">Agregar</button>
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                    <h3 class="card-title">Tuberculosis</h3>
+                    <p class="card-text">XM002</p>
+                    <p class="card-price">50</p>
+                    <button class="btn btn-primary" id="boton">Agregar</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                    <h3 class="card-title">Influenza</h3>
+                    <p class="card-text">XM003</p>
+                    <p class="card-price">85</p>
+                    <button class="btn btn-primary" id="boton">Agregar</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                    <h3 class="card-title">Faringitis Bacteriana</h3>
+                    <p class="card-text">XM004</p>
+                    <p class="card-price">75</p>
+                    <button class="btn btn-primary" id="boton">Agregar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ESPACIO PARA MOSTRAR CONTENIDO CARRITO -->
+    <h2>Resumen del carrito</h2>  
+    <div id="carrito"></div>
+
+
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
