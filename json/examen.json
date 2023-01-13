@@ -1,0 +1,26 @@
+
+[   {"id": "001",
+    "name": "COVID PCR", 
+    "desc": "¿En qué consiste?: Detecta si estás infectado actualmente a través de la toma de un muestra de hisopado en la nariz y boca. El tiempo de respuesta es de 10 a 24 horas.",
+    "price": 95
+    },
+
+    {"id": "002",
+    "name": "Tuberculosis", 
+    "desc": "Es una prueba que se usa para detectar si ha tenido contacto con el Mycobacterium tuberculosis, la micobacteria responsable de la tuberculosis.En esta prueba se inyecta una sustancia en la piel del brazo del paciente y luego de 48-72 horas la zona de la colocación del PPD se evalúa la reacción del paciente y, según eso, se determina si el resultado es positivo o negativo.",
+    "price": 50
+    },
+
+    {"id": "003",
+    "name": "Influenza", 
+    "desc": "Es una prueba rápida para la detección cualitativa de los antígenos del virus de la Influenza tipo A y tipo B por la técnica de inmunocromatográfia.",
+    "price": 85
+    },
+
+    {"id": "004",
+    "name": "IFI Viral", 
+    "desc": "Esta prueba permite una detección rápida y precisa de los principales virus causantes de infecciones respiratorias. El panel cuenta con 7 virus más frecuentes que causan infecciones del tracto respiratorio superior",
+    "price": 75
+    }
+
+]
